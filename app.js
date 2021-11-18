@@ -1,3 +1,19 @@
-console.log("hello world");
-console.log("Abdulquddus is very hard working "); 
-console.log("Abdulquddus is very hard working "); 
+// unnamed
+let Rectangle = class {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  };
+  console.log(Rectangle.name);
+  // output: "Rectangle"
+  
+  // named
+  let Rectangle = class Rectangle2 {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  };
+  console.log(Rectangle.name);
+  // output: "Rectangle2"
