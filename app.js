@@ -16,6 +16,7 @@ for (let i = 0; i < arr2.length; i++) {
 console.log(str);
 
 
+
 let str2='';
 let b=str;
 let b2=Array.from(b);
