@@ -13,7 +13,8 @@ for (let i = 0; i < arr2.length; i++) {
         a=arr[i+1];
     }
 }
-console.log(str);
+// console.log(str);
+
 
 
 let str2='';
